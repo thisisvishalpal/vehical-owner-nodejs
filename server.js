@@ -34,9 +34,9 @@ app.use(
 );
 
 //routes
-app.use("/users", usersRoutes);
-app.use("/vehicles", vehiclesRoutes);
-app.use("/ownership", ownershipRoutes);
+app.use("/api/v1/users", usersRoutes);
+app.use("/api/v1/vehicles", vehiclesRoutes);
+app.use("/api/v1/ownership", ownershipRoutes);
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
