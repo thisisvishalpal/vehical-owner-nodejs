@@ -36,7 +36,7 @@ exports.vehicles_occupied = (req, res) => {
     if(!obj){
       console.log(err);
     }else{
-      console.log(obj,'here');
+      console.log(obj);
     }
   })
   // User.findOneAndUpdate(where, postData, (err, obj) => {
